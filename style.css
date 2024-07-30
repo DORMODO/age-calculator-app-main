@@ -132,7 +132,8 @@ button {
 }
 
 .card__button:hover {
-  filter: brightness(1.2);
+  background: var(--clr-off-black);
+
 }
 
 .card__arrow {
