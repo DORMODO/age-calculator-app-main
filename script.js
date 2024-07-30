@@ -3,13 +3,11 @@ const submitBtn = document.getElementById("card__button");
 
 const validateDay = (day) => {
   if (day && day > 0 && day <= 31) {
-    console.log(day);
     return true;
   }
 };
 const validateMonth = (month) => {
   if (month && month > 0 && month <= 12) {
-    console.log(month);
     return true;
   }
 };
@@ -17,7 +15,6 @@ const validateYear = (year) => {
   const currentYear = new Date().getFullYear();
 
   if (year && year > 0 && year <= currentYear) {
-    console.log(year);
     return true;
   }
 };
